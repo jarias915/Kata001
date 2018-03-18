@@ -51,3 +51,10 @@ class SecuenciaTest(TestCase):
         strProcess = '5,7,0,9,0,1,3,5'
         arrReturn = [8, 0]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
+
+    # Iteracion 3
+    def test_calcular_maximo1(self):
+        strProcess = ""
+        arrReturn = [0]
+        # arrReturn[0] = 1
+        self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
