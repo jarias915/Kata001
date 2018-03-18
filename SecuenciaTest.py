@@ -10,3 +10,9 @@ class SecuenciaTest(TestCase):
         arrReturn = []
         #arrReturn[0] = 1
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
+
+    def test_calcular_numero2(self):
+        strProcess = '1'
+        arrReturn = []
+        arrReturn[0] = 1
+        self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
