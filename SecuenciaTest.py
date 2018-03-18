@@ -28,3 +28,10 @@ class SecuenciaTest(TestCase):
         arrReturn = [0]
         arrReturn[0] = 8
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
+
+    # Iteracion 2
+    def test_calcular_minimo1(self):
+        strProcess = ''
+        arrReturn = []
+        arrReturn[0] = 1
+        self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
