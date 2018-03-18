@@ -20,5 +20,5 @@ class SecuenciaTest(TestCase):
     def test_calcular_numero3(self):
         strProcess = '5,7'
         arrReturn = [0]
-        arrReturn[0] = 1
+        arrReturn[0] = 2
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
