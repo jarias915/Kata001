@@ -29,7 +29,7 @@ class Secuencia:
         print (num_elementos)
 
         # Asigna el arreglo que se va a retornar
-        arrReturn = [0,0]
+        arrReturn = [0,0,0]
         arrReturn[0] = num_elementos
 
         # Imprime el arreglo que se va a retornar
@@ -38,6 +38,9 @@ class Secuencia:
 
         #Asigna el minimo numero del arreglo
         arrReturn[1] = min(arrProcess)
+
+        #Asigna el maximo numero del arreglo
+        arrReturn[2] = max(arrProcess)
 
         # Retorna el arreglo
         return arrReturn
