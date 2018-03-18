@@ -10,10 +10,11 @@ class Secuencia:
         # Determina si la secuencia esta en blanco
         if sec == '':
             print ('La cadena recibida esta vacia.')
-            arrReturn = [1,1, 1]
+            arrReturn = [1,1, 1,1]
             arrReturn[0] = 0
             arrReturn[1] = 0
             arrReturn[2] = 0
+            arrReturn[3] = 0
             return arrReturn
 
         # Python se comporta de manera especial cuando se hace Split sobre una cadena en blanco, por lo que la siguiente
