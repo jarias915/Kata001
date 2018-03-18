@@ -44,7 +44,7 @@ class Secuencia:
         arrReturn[2] = max(arrProcess)
 
         #Asigna el promedio
-        arrReturn[3] = int(sec)
+        arrReturn[3] = sum(arrProcess) / 2
 
         # Retorna el arreglo
         return arrReturn
