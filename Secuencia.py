@@ -30,7 +30,7 @@ class Secuencia:
         print (num_elementos)
 
         # Asigna el arreglo que se va a retornar
-        arrReturn = [0,0,0]
+        arrReturn = [0,0,0,0]
         arrReturn[0] = num_elementos
 
         # Imprime el arreglo que se va a retornar
@@ -42,6 +42,9 @@ class Secuencia:
 
         #Asigna el maximo numero del arreglo
         arrReturn[2] = max(arrProcess)
+
+        #Asigna el promedio
+        arrReturn[3] = int(sec)
 
         # Retorna el arreglo
         return arrReturn
