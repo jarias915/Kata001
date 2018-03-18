@@ -84,3 +84,8 @@ class SecuenciaTest(TestCase):
         strProcess = '4'
         arrReturn = [1,4,4,4]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error un numero:")
+
+    def test_calcular_promedio3(self):
+        strProcess = '4,2'
+        arrReturn = [2,2,4,3]
+        self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error prueba  promedio 2 numeros :")
