@@ -32,6 +32,7 @@ class SecuenciaTest(TestCase):
     # Iteracion 2
     def test_calcular_minimo1(self):
         strProcess = ''
-        arrReturn = []
-        arrReturn[0] = 1
+        arrReturn = [1,1]
+        arrReturn[0] = 0
+        arrReturn[1] = 0
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
