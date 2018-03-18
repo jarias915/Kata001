@@ -28,12 +28,15 @@ class Secuencia:
         print num_elementos
 
         # Asigna el arreglo que se va a retornar
-        arrReturn = [0]
+        arrReturn = [0,0]
         arrReturn[0] = num_elementos
 
         # Imprime el arreglo que se va a retornar
         print 'Arrego con numero de elementos:'
         print arrReturn[0]
+
+        #Asigna el minimo numero del arreglo
+        arrReturn[1] = min(arrProcess)
 
         # Retorna el arreglo
         return arrReturn
