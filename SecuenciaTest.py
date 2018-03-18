@@ -92,5 +92,5 @@ class SecuenciaTest(TestCase):
 
     def test_calcular_promedio4(self):
         strProcess = '5,3,7,8,2'
-        arrReturn = [5,2,3,5]
+        arrReturn = [5,2,8,5]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error prueba promedio  n numeros:")
