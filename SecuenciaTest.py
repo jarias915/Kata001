@@ -69,6 +69,6 @@ class SecuenciaTest(TestCase):
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error dos numeros ")
 
     def test_calcular_maximo4(self):
-        strProcess = '1,2,3,4'
-        arrReturn = [4]
+        strProcess = '6,3,2,5,3'
+        arrReturn = [5,2,6]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error N numeros:")
