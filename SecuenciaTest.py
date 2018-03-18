@@ -72,3 +72,10 @@ class SecuenciaTest(TestCase):
         strProcess = '6,3,2,5,3'
         arrReturn = [5,2,6]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error N numeros:")
+
+
+    # Iteracion 4
+    def test_calcular_promedio1(self):
+        strProcess = ''
+        arrReturn = [0,0,0,0]
+        self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error string vacio:")
