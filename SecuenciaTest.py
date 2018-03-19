@@ -25,7 +25,7 @@ class SecuenciaTest(TestCase):
 
     def test_calcular_numero4(self):
         strProcess = '5,7,0,9,0,1,3,5'
-        arrReturn = [8, 0, 9, 3.75]
+        arrReturn = [8, 0, 9, 3]
         #arrReturn[0] = 8
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
 
@@ -44,12 +44,12 @@ class SecuenciaTest(TestCase):
 
     def test_calcular_minimo3(self):
         strProcess = '2,5'
-        arrReturn = [2, 2, 5, 3.5]
+        arrReturn = [2, 2, 5, 3]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
 
     def test_calcular_minimo4(self):
         strProcess = '5,7,0,9,0,1,3,5'
-        arrReturn = [8, 0,9,3.75]
+        arrReturn = [8, 0,9,3]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error en la prueba:")
 
     # Iteracion 3
@@ -65,12 +65,12 @@ class SecuenciaTest(TestCase):
 
     def test_calcular_maximo3(self):
         strProcess = '3,4'
-        arrReturn = [2,3,4,3.5]
+        arrReturn = [2,3,4,3]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error dos numeros ")
 
     def test_calcular_maximo4(self):
         strProcess = '6,3,2,5,3'
-        arrReturn = [5,2,6,3.8]
+        arrReturn = [5,2,6,3]
         self.assertEqual(Secuencia().calcular(strProcess), arrReturn, "Error N numeros:")
 
 
